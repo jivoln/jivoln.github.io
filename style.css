@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barre de navigation */
+nav{
+    color: black;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+nav .onglets{
+    display: flex; flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/* Fin de la bar de navigation */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h2{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+/* Fin Header */
